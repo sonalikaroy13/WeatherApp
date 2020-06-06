@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+        width: 100vw !important;
+}    
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#bg{
+    height: 70vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .brand-logo{
+        margin-left: -180px;
+    }
+    
+    .input-field{
+        margin-right: -20px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+   
+    .brand-logo{
+        margin-left: -120px;
+        font-size: 24px !important;
+    }
+    
+    .input-field{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .brand-logo{
+        margin-left: -105px;
+        font-size: 20px;
+    }
+    
+    .input-field{
+        max-width: 200px;
+    }
+    
+    h1{
+    font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    *{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #display{
+        max-width: 100% !important;
+    }
+    
+    .brand-logo{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .input-field{
+        margin-top: 55px !important;
+        margin-bottom: 0 !important;
+        max-width: 280px;
+    }
+    
+    .prefix{
+        color: teal;
+    }
+    
+    #icon_prefix{
+        color: black !important;
+    }
+}
